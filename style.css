@@ -2,22 +2,93 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Sora', sans-serif;
+  
 }
 
 .flex-container{
     display: flex;
+    margin-bottom: 20px;
+    padding-left: 90px;
 }
 
 .flex-item{
     width: 50%;
-    padding: 6% 2%; 
+    padding: 30px;
 }
 
 .flex-item img{
     width: 60%;
+    padding-left:30px;
 
 }
 
-#mission{
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#vertical-line{
+    border-left: 5px solid; 
+    border-left-color: crimson;
+}
+.inline-arranged{
+    display: block; 
+    color:chocolate;
+    font-family: ;
+}
+
+.color-link{
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    border-radius: 15px; 
+    padding: 10px 15px; 
+    
+}
+
+.bg-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    margin-left: 50px;
+    
+}
+.bg-img-gl-com{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    padding-left: 150px;
+}
+
+#mission22{
     text-align: center;
+}
+
+#mission{
+    background-color: rgb(145, 103, 185);
+    border-radius: 35px;
+}
+#vision{
+    background-color: rgb(173, 125, 125);
+    border-radius: 35px;
+    margin-left: 15px;
+}
+
+#goals{
+    background-color: rgb(175, 109, 98);
+    border-radius: 35px;
+    margin-left: 15px;
+}
+
+
+ 
+footer{
+    margin-top: 200px;
+    padding: 80px;
+    background-color: black;
+}
+footer h1, p{
+    text-align: center;
+    color: black;
 }
