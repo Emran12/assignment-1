@@ -7,19 +7,23 @@ body{
 
 .flex-container{
     display: flex;
-    margin-bottom: 20px;
-    padding-left: 90px;
+    margin-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 70px;
 }
+
+
+
 
 .flex-item{
     width: 50%;
     padding: 30px;
+
 }
 
 .flex-item img{
-    width: 60%;
-    padding-left:30px;
-
+    width: 80%;
+    padding: 30px;
 }
 
 h1{
@@ -30,10 +34,15 @@ h1{
     border-left: 5px solid; 
     border-left-color: crimson;
 }
-.inline-arranged{
+
+
+.sp-color{
     display: block; 
     color:chocolate;
     font-family: ;
+}
+.reverse-display{
+    display: inline;
 }
 
 .color-link{
@@ -51,23 +60,36 @@ h1{
     background-repeat: no-repeat;
     background-size: 15%;
     margin-left: 50px;
-    
+    margin-right: 50px;
 }
-.bg-img-gl-com{
-    background-image: url(images/shapes/shape-1.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
+
+.bg-img-glob-com{
+    background-position: right;
     background-size: 15%;
-    padding-left: 150px;
+  /* //  margin-right: 80px; */
+    padding-left: 10%;
+
+
+}
+
+#glob-img{
+    width: 100%;
+
+}
+
+#exp-more{
+    text-align: left;
 }
 
 #mission22{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 #mission{
     background-color: rgb(145, 103, 185);
     border-radius: 35px;
+    
 }
 #vision{
     background-color: rgb(173, 125, 125);
@@ -80,15 +102,15 @@ h1{
     border-radius: 35px;
     margin-left: 15px;
 }
-
-
  
 footer{
-    margin-top: 200px;
-    padding: 80px;
+    margin-top: 35px;
+    padding: 40px;
     background-color: black;
 }
-footer h1, p{
+
+footer h1{
+    color: white;
     text-align: center;
-    color: black;
+    font-family: monospace;
 }
